@@ -59,17 +59,23 @@ git push origin your-branch-name
 
 ## Step 7: Create a Pull Request
 
-1. Open your fork on GitHub.
+1. Open your fork repository on GitHub.
 2. Click **Compare & pull request**.
 3. Add a clear title and description of your changes.
-4. Click **Create pull request**.
+4. In the PR description, also include:
+   - Your email ID
+   - Your resume as an attachment
+   - A live link or demo video of the assignment
+     - **Svelte assignment:** A live website link is **mandatory**.
+     - **Flutter assignment:** Using Flutter Web, you can deploy the project and include the live website link.
+5. Click **Create pull request**.
 
 Your submission is now ready for review.
 
 ---
 
-## Tips
+## Instructions
 
-- Create a new branch for every task.
 - Write clear and meaningful commit messages.
 - Respond to review comments and update your Pull Request if requested.
+- Do not push auto-generated files to the repository. Add them to `.gitignore` as per the task requirements. If auto-generated files have already been pushed, remove them from the repository first, then commit the updated `.gitignore` in your next commit.
